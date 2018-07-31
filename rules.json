@@ -1,0 +1,19 @@
+{
+  "audit_rules": [
+  {
+    "key": "file access",
+    "path": "/etc/passwd"
+    "permission": "rwa"
+  },
+  {
+    "actions": [
+      "exit",
+      "always"
+    ],
+    "key": "execution",
+    "syscalls": [
+      "execve"
+    ]
+  }
+  ]
+}

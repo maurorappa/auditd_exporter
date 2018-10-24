@@ -9,7 +9,7 @@ import (
         "os"
         "strconv"
         "time"
- 
+        _ "net/http/pprof"
         "github.com/maurorappa/libaudit-go"
         "github.com/prometheus/client_golang/prometheus"
         "github.com/prometheus/client_golang/prometheus/promhttp"
